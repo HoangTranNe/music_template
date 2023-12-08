@@ -1,5 +1,5 @@
 function Menu(){
-
+<<<<<<< HEAD
 
     return <div className="position-fixed h-100 pt-3 ps-2 d-flex flex-column" 
             style={{
