@@ -1,10 +1,18 @@
 import React from 'react';
+<<<<<<< HEAD
+=======
+import ".../static/css/style";
+>>>>>>> 2cd2f2a97c32bf8e1a7cd2215b141259da2946c2
 function Login(){
     return <div>
         <header>
       <div class="logo">
         <a href="#">
+<<<<<<< HEAD
           <img src="/static/img/logo-black.png" alt="Logo" />
+=======
+          <img src="/static/img/logo-black.png" />
+>>>>>>> 2cd2f2a97c32bf8e1a7cd2215b141259da2946c2
         </a>
       </div>
     </header>
@@ -13,6 +21,7 @@ function Login(){
       <div class="main">
         <div class="account-connect">
             <button class="a-c-btn" id="f" style={{backgroundColor: "#1877F2", color: "white"}} >
+<<<<<<< HEAD
             <img src="/static/img/icon-fb.png" alt="Facebook Icon" />
             <span>Continue with Facebook</span>
           </button>
@@ -22,6 +31,17 @@ function Login(){
           </button>
           <button class="a-c-btn" id="g" style={{backgroundColor: "white", color: "black"}}>
             <img src="/static/img/icon-google.png" alt="Google Icon" />
+=======
+            <img src="/static/img/icon-fb.png"/>
+            <span>Continue with Facebook</span>
+          </button>
+          <button class="a-c-btn" id="a" style={{backgroundColor: "black", color: "white"}}>
+            <img src="/static/img/icon-apple.png" />
+            <span>Continue with Apple</span>
+          </button>
+          <button class="a-c-btn" id="g" style={{backgroundColor: "white", color: "black"}}>
+            <img src="/static/img/icon-google.png" />
+>>>>>>> 2cd2f2a97c32bf8e1a7cd2215b141259da2946c2
             <span>Continue with Google</span>
           </button>
         </div>
@@ -39,7 +59,11 @@ function Login(){
 
             <label>Password</label>
             <input type="password" placeholder="Password" />
+<<<<<<< HEAD
             <img src='/static/img/showPass.png' alt="Show Password" className='position-absolute' style={{top: "142px", right: "10px"}}/>
+=======
+            <img src='/static/img/showPass.png' className='position-absolute' style={{top: "142px", right: "10px"}}/>
+>>>>>>> 2cd2f2a97c32bf8e1a7cd2215b141259da2946c2
 
             <a href="#" className='d-flex' style={{color: "black", marginBottom: "5px"}}>Forgot your password?</a>
             
