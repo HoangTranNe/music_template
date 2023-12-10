@@ -11,50 +11,28 @@ function Footer(){
                 </div>
             </div>
             <div className="d-flex align-items-center ms-3">
-<<<<<<< HEAD
-                <img src="/static/img/icon-add.png" width="20px" height="20px" className="me-2" alt="Add Icon" />
-                <img src="/static/img/icon-yt.png" width="20px" height="20px" alt="YouTube Icon" />
-=======
-                <img src="/static/img/icon-add.png" width="20px" height="20px" className="me-2" />
-                <img src="/static/img/icon-yt.png" width="20px" height="20px" />
->>>>>>> 2cd2f2a97c32bf8e1a7cd2215b141259da2946c2
+                <img src="img/icon-add.png" width="20px" height="20px" className="me-2" />
+                <img src="img/icon-yt.png" width="20px" height="20px" />
             </div>
         </div>
         
         <div className="d-flex flex-column" style={{width: "1000px"}}>
             <div className="d-flex justify-content-center align-items-center mb-3">
                 <div className="me-2">
-<<<<<<< HEAD
-                    <img src="/static/img/icon-prev-15.png" alt="Previous 15 Icon"/>
+                    <img src="img/icon-prev-15.png" alt="Previous 15 Icon"/>
                 </div>
                 <div className="me-2">
-                    <img src="/static/img/icon-prev.png" alt="Previous Icon"/>
+                    <img src="img/icon-prev.png" alt="Previous Icon"/>
                 </div>
                 <div className="me-2 ps-1 d-flex align-items-center justify-content-center" style={{backgroundColor: "white", 
                 width: "25px", height: "25px", borderRadius: "50%"}}>
-                    <img src="/static/img/icon-play.png" alt="Play Icon"/>
+                    <img src="img/icon-play.png" alt="Play Icon"/>
                 </div>
                 <div className="me-2">
-                    <img src="/static/img/icon-next.png" alt="Next Icon"/>
+                    <img src="img/icon-next.png" alt="Next Icon"/>
                 </div>
                 <div className="me-2">
-                    <img src="/static/img/icon-next-15.png" alt="Next 15 Icon"/>
-=======
-                    <img src="/static/img/icon-prev-15.png"/>
-                </div>
-                <div className="me-2">
-                    <img src="/static/img/icon-prev.png"/>
-                </div>
-                <div className="me-2 ps-1 d-flex align-items-center justify-content-center" style={{backgroundColor: "white", 
-                width: "25px", height: "25px", borderRadius: "50%"}}>
-                    <img src="/static/img/icon-play.png"/>
-                </div>
-                <div className="me-2">
-                    <img src="/static/img/icon-next.png"/>
-                </div>
-                <div className="me-2">
-                    <img src="/static/img/icon-next-15.png"/>
->>>>>>> 2cd2f2a97c32bf8e1a7cd2215b141259da2946c2
+                    <img src="img/icon-next-15.png" alt="Next 15 Icon"/>
                 </div>
             </div>
             <div className="d-flex justify-content-center">
@@ -73,23 +51,13 @@ function Footer(){
         </div>
         <div className="d-flex justify-content-center align-items-center">
             <div className="me-2">
-<<<<<<< HEAD
-                <img src="/static/img/icon1.png" alt="Icon 1" />
+                <img src="img/icon1.png" alt="Icon 1" />
             </div>
             <div className="me-2">
-                <img src="/static/img/icon2.png" alt="Icon 2" />
+                <img src="img/icon2.png" alt="Icon 2" />
             </div>
             <div className="d-flex">
-                <img src="/static/img/icon-sound.png" className="me-1" alt="Sound Icon" />
-=======
-                <img src="/static/img/icon1.png" />
-            </div>
-            <div className="me-2">
-                <img src="/static/img/icon2.png" />
-            </div>
-            <div className="d-flex">
-                <img src="/static/img/icon-sound.png" className="me-1" />
->>>>>>> 2cd2f2a97c32bf8e1a7cd2215b141259da2946c2
+                <img src="img/icon-sound.png" className="me-1" alt="Sound Icon" />
                 <div class="seekbar-sound">
                     <div class="count-sound">
                         <div class="progress-sound" style={{width: "100%"}}>
@@ -99,18 +67,9 @@ function Footer(){
                 </div>
             </div>
             <div className="ms-2">
-<<<<<<< HEAD
-                <img src="/static/img/icon-fullscreen.png" alt="Fullscreen Icon" />
-=======
-                <img src="/static/img/icon-fullscreen.png" />
->>>>>>> 2cd2f2a97c32bf8e1a7cd2215b141259da2946c2
+                <img src="img/icon-fullscreen.png" alt="Fullscreen Icon" />
             </div>
         </div>
     </div>;
 }
-
-<<<<<<< HEAD
 export default Footer;
-=======
-export default Footer;
->>>>>>> 2cd2f2a97c32bf8e1a7cd2215b141259da2946c2

@@ -12,13 +12,13 @@ function Main(){
                 </div>
                 <div className="d-flex align-items-center ps-5 pt-4">
                     <div className="me-4">
-                        <img src="/static/img/icon5.png"/>
+                        <img src="img/icon5.png"/>
                     </div>
                     <div className="me-4">
-                        <img src="/static/img/icon4.png"/>
+                        <img src="img/icon4.png"/>
                     </div>
                     <div>
-                        <img src="/static/img/icon3.png"/>
+                        <img src="img/icon3.png"/>
                     </div>
                 </div>
                 <div className="d-flex align-items-center ps-5 pt-4 text-white h3">

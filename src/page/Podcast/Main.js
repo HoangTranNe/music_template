@@ -1,27 +1,10 @@
-<<<<<<< HEAD
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Top from '../components/Top';
 function Main({item}){
     return (
         <div>
             <div style={{marginLeft: "15%", background: "rgba(0, 0, 0, 0.89)"}} className="d-flex justify-content-between ps-3 pe-3 pt-2 pb-2">                            
             <Top/>
-=======
-function Main({item}){
-    return (
-        <div>
-            <div style={{marginLeft: "15%", background: "rgba(0, 0, 0, 0.89)"}} className="d-flex justify-content-between ps-3 pe-3 pt-2 pb-2">
-                <div className="d-flex pt-2 pb-2">
-                    <button style={{background: "rgba(0, 0, 0, 0.9)", color: "white", borderRadius: "50%", width: "30px", height: "30px", border: "0"}} 
-                    class="me-2">
-                        <i className="fas fa-chevron-left"></i>
-                    </button>
-                    <button style={{background: "rgba(0, 0, 0, 0.9)", color: "white", borderRadius: "50%", width: "30px", height: "30px", border: "0"}} >
-                        <i className="fas fa-chevron-right"></i>
-                    </button>
-                </div>
->>>>>>> 2cd2f2a97c32bf8e1a7cd2215b141259da2946c2
                 <div className="d-flex align-items-center">
                     <div>
                         <button style={{color: "#A7A7A7"}} className="btn">Sign up</button>
@@ -42,19 +25,19 @@ function Main({item}){
                         </div>
                         <div className="d-flex mt-3">
                             {
-                                item("/static/img/item-1.png", "Every Parent's Nightmare", "Sep 2022 · 36 min")
+                                item("img/item-1.png", "Every Parent's Nightmare", "Sep 2022 · 36 min")
                             }
                             {
-                                item("/static/img/item-2.png", "How the Pell Grant helped POCs go to college", "Sep 2022 · 29 min")
+                                item("img/item-2.png", "How the Pell Grant helped POCs go to college", "Sep 2022 · 29 min")
                             }
                             {
-                                item("/static/img/item-3.png", "After 10 Years", "Jul 2022 · 62 min")
+                                item("img/item-3.png", "After 10 Years", "Jul 2022 · 62 min")
                             }
                             {
-                                item("/static/img/item-4.png", "Book Exploder: Min Jin Lee - Pachinko", "Aug 2022 · 20 min")
+                                item("img/item-4.png", "Book Exploder: Min Jin Lee - Pachinko", "Aug 2022 · 20 min")
                             }
                             {
-                                item("/static/img/item-5.png", "Healing Through Music with TOKiMONSTA", "Aug 2022 · 26 min")
+                                item("img/item-5.png", "Healing Through Music with TOKiMONSTA", "Aug 2022 · 26 min")
                             }
                         </div>
                     </div>
@@ -64,19 +47,19 @@ function Main({item}){
                         </div>
                         <div className="d-flex mt-3">
                             {
-                                item("/static/img/item-1.png", "Every Parent's Nightmare", "Sep 2022 · 36 min")
+                                item("img/item-1.png", "Every Parent's Nightmare", "Sep 2022 · 36 min")
                             }
                             {
-                                item("/static/img/item-2.png", "How the Pell Grant helped POCs go to college", "Sep 2022 · 29 min")
+                                item("img/item-2.png", "How the Pell Grant helped POCs go to college", "Sep 2022 · 29 min")
                             }
                             {
-                                item("/static/img/item-3.png", "After 10 Years", "Jul 2022 · 62 min")
+                                item("img/item-3.png", "After 10 Years", "Jul 2022 · 62 min")
                             }
                             {
-                                item("/static/img/item-4.png", "Book Exploder: Min Jin Lee - Pachinko", "Aug 2022 · 20 min")
+                                item("img/item-4.png", "Book Exploder: Min Jin Lee - Pachinko", "Aug 2022 · 20 min")
                             }
                             {
-                                item("/static/img/item-5.png", "Healing Through Music with TOKiMONSTA", "Aug 2022 · 26 min")
+                                item("img/item-5.png", "Healing Through Music with TOKiMONSTA", "Aug 2022 · 26 min")
                             }
                         </div>
                     </div>

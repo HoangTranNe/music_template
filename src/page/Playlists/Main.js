@@ -1,13 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-<<<<<<< HEAD
 import Top from '../components/Top';
-
-function Main({item}){
-    return <div> 
-    <div style={{marginLeft: "15%", background: "rgba(0, 0, 0, 0.89)", minHeight: "100vh"}}>
-        <Top/>
-=======
 
 function Main({item}){
     return <div>
@@ -35,14 +28,13 @@ function Main({item}){
         </div>
         <div className="d-flex align-items-center">
             <button className='btn p-0 ps-0 pe-1' style={{backgroundColor: "black", borderRadius: "25px"}}>
-                <img src='/static/img/icon-user.png'/>
+                <img src='img/icon-user.png'/>
                 <span className='text-white ms-2 me-2'>Rajarshi B</span>
-                <img src='/static/img/icon-arrow-bottom.png'/>
+                <img src='img/icon-arrow-bottom.png'/>
             </button>
         </div>
     </div>
     <div style={{marginLeft: "15%", background: "rgba(0, 0, 0, 0.89)", minHeight: "100vh"}}>
->>>>>>> 2cd2f2a97c32bf8e1a7cd2215b141259da2946c2
         <div style={{fontSize: "35px", fontWeight: "bold", paddingTop: "35px", marginLeft: "25px", color: "white", marginBottom: "30px"}}>
             Playlists
         </div>
@@ -65,32 +57,32 @@ function Main({item}){
                         </div>
                     </div>
                     {
-                        item("/static/img/item-6.png", "Your Episodes", "14 episodes")
+                        item("img/item-6.png", "Your Episodes", "14 episodes")
                     }
                     {
-                        item("/static/img/item-7.png", "Bollywood Jazz", "The best of Jazz music from Bollywood. Cover- A R Rahman")
+                        item("img/item-7.png", "Bollywood Jazz", "The best of Jazz music from Bollywood. Cover- A R Rahman")
                     }
                     {
-                        item("/static/img/item-8.png", "Hangover Cure", "Trust us, you need this!")
+                        item("img/item-8.png", "Hangover Cure", "Trust us, you need this!")
                     }
                 </div>
             </div>
             <div className="pb-5">
                 <div className="d-flex mb-5">
                     {
-                        item("/static/img/item-1.png", "Every Parent's Nightmare", "Sep 2022 · 36 min")
+                        item("img/item-1.png", "Every Parent's Nightmare", "Sep 2022 · 36 min")
                     }
                     {
-                        item("/static/img/item-2.png", "How the Pell Grant helped POCs go to college", "Sep 2022 · 29 min")
+                        item("img/item-2.png", "How the Pell Grant helped POCs go to college", "Sep 2022 · 29 min")
                     }
                     {
-                        item("/static/img/item-3.png", "After 10 Years", "Jul 2022 · 62 min")
+                        item("img/item-3.png", "After 10 Years", "Jul 2022 · 62 min")
                     }
                     {
-                        item("/static/img/item-4.png", "Book Exploder: Min Jin Lee - Pachinko", "Aug 2022 · 20 min")
+                        item("img/item-4.png", "Book Exploder: Min Jin Lee - Pachinko", "Aug 2022 · 20 min")
                     }
                     {
-                        item("/static/img/item-5.png", "Healing Through Music with TOKiMONSTA", "Aug 2022 · 26 min")
+                        item("img/item-5.png", "Healing Through Music with TOKiMONSTA", "Aug 2022 · 26 min")
                     }
                 </div>
             </div>

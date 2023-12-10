@@ -2,8 +2,6 @@ import React from 'react';
 import Main from './Main';
 import Menu from '../components/MenuLeft';
 
-
-
 const Search = () => {
   const search = ({    
     fontFamily: "monospace",
