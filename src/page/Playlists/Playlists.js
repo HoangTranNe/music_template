@@ -1,5 +1,5 @@
-import Menu from './Menu'
-import Footer from './Footer'
+import Menu from '../components/MenuLeft'
+import Footer from '../components/Footer'
 import Main from './Main'
 
 function Playlists({item}){
@@ -10,7 +10,7 @@ function Playlists({item}){
     }}>
         
         <Menu />
-        <Footer />
+        {/* <Footer /> */}
         <Main item={item}/>
     </div>;
 }

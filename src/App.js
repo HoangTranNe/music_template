@@ -10,6 +10,7 @@ import Play from './page/Play/Play'
 import Search from './page/Search/Search';
 import Forgot from './page/Forgot/Forgot';
 import Register from './page/Register/Register';
+import Guest from './page/Guest/Guest';
 function App() {
   return (
     <Routes>
@@ -40,6 +41,9 @@ function App() {
       <Route path="/register" element=
       {
         <Register/>
+      }/>
+      <Route path="/guest" element={
+        <Guest/>
       }/>
     </Routes>
   );

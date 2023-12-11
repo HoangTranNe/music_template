@@ -6,7 +6,8 @@ const Button = () => {
       backgroundColor: "black",
       textAlign: "center",
       display:'grid',
-      justifyContent:"center"    
+      justifyContent:"center",
+      height: '50%'
     }}>      
       <div className="thirdLogin" style={{
         backgroundColor:"black"
@@ -59,7 +60,7 @@ const Button = () => {
             <img style = {{
               height: "20px",
               width: "20px"
-            }}src="img/icon-google.png" alt="Google Icon" />
+            }} src="img/icon-google.png" alt="Google Icon" />
             <span>Continue with Google</span>
           </button>
         </div>

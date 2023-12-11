@@ -12,11 +12,12 @@ const Form = () => {
       justifyContent:"center",
       alignItems:'center',
       alignContent: 'center',
+      height: '35%'
     }}>
       
       <input
         style={{          
-          marginTop:"50px",
+          marginTop:"100px",
           padding:"8px",
           fontSize:"16px",
           borderRadius:"5px",

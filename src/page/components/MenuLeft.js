@@ -2,7 +2,7 @@ import React from 'react';
 
 function MenuLeft(){
     return (
-        <div className="position-fixed h-100 pt-3 ps-2 d-flex flex-column" style={{width: "15%", backgroundColor: "black"}}>
+    <div className="position-fixed h-100 pt-3 ps-2 d-flex flex-column" style={{width: "15%", backgroundColor: "black"}}>
         <div className="logo" style={{zIndex: "0"}}>
             <a href='../Playlists'>
                 <img src="img/logo.png" width="70%" className="mb-3" alt="Logo" />
