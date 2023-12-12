@@ -8,7 +8,6 @@ function Playlists({item}){
         fontSize: "15px",        
         fontWeight: "bold"
     }}>
-        
         <Menu />
         {/* <Footer /> */}
         <Main item={item}/>

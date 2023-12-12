@@ -1,11 +1,34 @@
 import React from 'react';
 import Button from './ButtonTop'
+
 function Top() {
+  const Logout = {
+    color: "white",
+    textDecoration: "none"
+  }
   return (
     <div style={{
-        marginLeft: "50px"
+        marginLeft: "269px",
+        position: "fixed",     
+        float: "top",
+        top: 0,
+        left: 0,        
+        width: "100%",
+        zIndex: 200,
+        backgroundColor: "#333333",
+        color: "white",
+        height: "50px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
+        fontSize: "16px",
+        fontWeight: "bold",
+        cursor: "pointer",
+        transition: ".3s ease-in-out all",
     }}>
-        <div className="d-flex align-items-center pt-2 pb-2">
+        <div className="d-flex align-items-center pt-2 pb-2" style={{
+            justifyContent: "space-between"
+        }}>
             <button style={{background: "rgba(0, 0, 0, 0.9)", color: "white", borderRadius: "50%", width: "30px", height: "30px", border: "0"}} className="me-3" onClick={() => window.history.back()}>
                     <i className="fas fa-chevron-left"></i>
             </button>
@@ -24,7 +47,7 @@ function Top() {
                     Podcasts
                 </Button>
 
-                <Button isSelected={false} style={{color: "white"}} className='p-2 ps-4 pe-4 ms-3 text-decoration-none'>
+                <Button isSelected={false} link = "../Artist"style={{color: "white"}} className='p-2 ps-4 pe-4 ms-3 text-decoration-none'>
                     Artists
                 </Button>
 
@@ -45,9 +68,31 @@ function Top() {
                     color:"white",
                     width: "20%",
                     marginLeft:"120px"
-                }}/>                        
-        </div>
+                }}/>     
+
+            <div style={{
+                marginLeft: "50px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                width: "400px",
+                marginRight: "50px",
+                float: "right",
+                fontSize: "16px",
+                color: "white",
+                fontWeight: "bold",
+                cursor: "pointer",
+                transition: ".3s ease-in-out all",
+            }}>
+                <button style={{background: "rgba(0, 0, 0, 0.9)", color: "white", borderRadius: "5px", padding: "10px", marginLeft: "10px"}}>Login</button>
+                <button style={{background: "rgba(0, 0, 0, 0.9)", color: "white", borderRadius: "5px", padding: "10px", marginLeft: "10px"}}>Register</button>
+                <button style={{background: "rgba(0, 0, 0, 0.9)", color: "white", borderRadius: "5px", padding: "10px", marginLeft: "10px"}}>
+                    <a href='../Login' style={Logout}>Log out</a>
+                </button>
+            </div>
+        </div>        
     </div>
+    
   );
 }
 

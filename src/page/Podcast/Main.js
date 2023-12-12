@@ -3,18 +3,10 @@ import Top from '../components/Top';
 function Main({item}){
     return (
         <div>
-            <div style={{marginLeft: "15%", background: "rgba(0, 0, 0, 0.89)"}} className="d-flex justify-content-between ps-3 pe-3 pt-2 pb-2">                            
-            <Top/>
-                <div className="d-flex align-items-center">
-                    <div>
-                        <button style={{color: "#A7A7A7"}} className="btn">Sign up</button>
-                    </div>
-                    <div>
-                        <button style={{backgroundColor: "white", borderRadius: "25px"}} className="text-black btn ps-4 pe-4 ms-4">Log in</button>
-                    </div>
-                </div>
-            </div>
             <div style={{marginLeft: "15%", background: "rgba(0, 0, 0, 0.83)", minHeight: "100vh"}}>
+                <div>
+                    <Top/>                    
+                </div>            
                 <div style={{fontSize: "55px", fontWeight: "bold", paddingTop: "55px", marginLeft: "25px", color: "rgba(255, 255, 255, 0.7)", marginBottom: "30px"}}>
                     Podcast
                 </div>

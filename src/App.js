@@ -11,6 +11,7 @@ import Search from './page/Search/Search';
 import Forgot from './page/Forgot/Forgot';
 import Register from './page/Register/Register';
 import Guest from './page/Guest/Guest';
+import Artist from './page/Artist/Artist';
 function App() {
   return (
     <Routes>
@@ -43,7 +44,10 @@ function App() {
         <Register/>
       }/>
       <Route path="/guest" element={
-        <Guest/>
+        <Guest item = {Item}/>
+      }/>
+      <Route path ="/artist" element = {
+        <Artist/>
       }/>
     </Routes>
   );
