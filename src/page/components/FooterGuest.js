@@ -1,37 +1,145 @@
-import React from "react";
-const FooterGuest = () => {
-    return(
-       <div style={{
-            display: 'fixed',
-            marginLeft: '266px',            
-       }}>
-         <div style={{
-                width: '100%', 
-                height: 67.78, 
-                background: '#181818', 
-                borderTop: '1px #282828 solid', 
-                flexDirection: 'column', 
-                justifyContent: 'center', 
-                alignItems: 'flex-start', 
-                display: 'inline-flex'}}>
-            <div style={{alignSelf: 'stretch', height: 66.78, paddingTop: 11, paddingBottom: 7.39, paddingLeft: 15, paddingRight: 24, background: 'linear-gradient(90deg, #AF2896 0%, #509BF5 100%)', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 611.06, display: 'inline-flex'}}>
-            <div style={{alignSelf: 'stretch', paddingBottom: 0.59, paddingRight: 36.12, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
-                <div style={{color: 'white', fontSize: 12, fontFamily: 'Helvetica Neue', fontWeight: '400', textTransform: 'uppercase', lineHeight: 19.20, letterSpacing: 1.20, wordWrap: 'break-word'}}>Preview of Spotify</div>
-                <div style={{color: 'white', fontSize: 15, fontFamily: 'Helvetica Neue', fontWeight: '400', lineHeight: 25.60, wordWrap: 'break-word'}}>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</div>
-            </div>
-            <div style={{paddingTop: 15, paddingBottom: 15, paddingLeft: 34, paddingRight: 33.81, background: 'white', borderRadius: 500, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
-                <div style={{textAlign: 'center', color: 'black', fontSize: 15, fontFamily: 'Helvetica Neue', fontWeight: '700', wordWrap: 'break-word'}}>Sign up free</div>
-            </div>
-            </div>
-            <div style={{alignSelf: 'stretch', height: 1, paddingLeft: 1327, paddingRight: 20, justifyContent: 'flex-end', alignItems: 'center', display: 'inline-flex'}}>
-            <div style={{alignSelf: 'stretch', background: 'rgba(255, 255, 255, 0.30)', borderRadius: 2, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
-                <div style={{width: 93, height: 4, position: 'relative', borderRadius: 2, overflow: 'hidden'}}>
-                <div style={{width: 93, height: 4, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 2}} />
-                </div>
-            </div>
-            </div>
+import { React } from "react";
+
+const FooterGuest = () => {  
+
+  return (
+    <div
+      style={{
+        position: "fixed",
+        padding:"10px 10px",
+        backgroundColor: "#181818",
+        borderTop: "1px solid #282828",
+        boxSizing: "border-box",
+        width: "85%",
+        height: "67.78px",
+        textAlign: "left",
+        fontSize: "12px",
+        color: "#fff",
+        fontFamily: "'Helvetica Neue'",
+        top: "890px"
+      }}
+    >
+      <div
+        style={{
+          position: "absolute",
+          top: "67.78px",
+          left: "0px",
+          width: "1440px",
+          height: "1px",
+          overflow: "hidden",
+        }}
+      >
+        <div
+          style={{
+            position: "absolute",
+            width: "calc(100% - 1347px)",
+            top: "-2px",
+            right: "20px",
+            left: "1327px",
+            borderRadius: "2px",
+            backgroundColor: "rgba(255, 255, 255, 0.3)",
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "flex-start",
+            justifyContent: "flex-start",
+          }}
+        >
+          <div
+            style={{
+              position: "relative",
+              borderRadius: "2px",
+              width: "93px",
+              height: "4px",
+              overflow: "hidden",
+              flexShrink: "0",
+            }}
+          >
+            <div
+              style={{
+                position: "absolute",
+                width: "100%",
+                top: "0px",
+                right: "0px",
+                left: "0px",
+                borderRadius: "2px",
+                backgroundColor: "#fff",
+                height: "4px",
+              }}
+            />
+          </div>
         </div>
-       </div>
-    );
-}
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          width: "100%",
+          top: "1px",
+          right: "0px",
+          left: "0px",
+          background: "linear-gradient(90deg, #af2896, #509bf5)",
+          height: "66.78px",
+        }}
+      >
+        <div
+          style={{
+            position: "absolute",
+            top: "calc(50% - 22.39px)",
+            left: "15px",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "flex-start",
+            justifyContent: "flex-start",
+            padding: "0px 36.125px 0.59375px 0px",
+          }}
+        >
+          <div
+            style={{
+              position: "relative",
+              letterSpacing: "1.2px",
+              lineHeight: "19.2px",
+              textTransform: "uppercase",
+            }}
+          >
+            Preview of Spotify
+          </div>
+          <div
+            style={{
+              position: "relative",
+              fontSize: "15px",
+              lineHeight: "25.6px",
+              marginTop: "-1.81px",
+            }}
+          >
+            Sign up to get unlimited songs and podcasts with occasional ads. No
+            credit card needed.
+          </div>
+        </div>
+        <button type="button"  style={{                
+                borderRadius: "500px",
+                backgroundColor: "#fff",                                            
+                justifyContent: "flex-start",
+                padding: "15px 33.8125px 15px 34px",                                
+                fontSize: "15px",
+                color: "#000",
+                marginLeft : '1300px',
+                marginTop: '6px'
+            }}>
+            <a href = "../Register" style={{ 
+                position: "relative",
+                textDecoration: "none",
+                color: "#000",
+                fontWeight: "600",
+                letterSpacing: "0.5px",
+                lineHeight: "19.2px",
+                textTransform: "uppercase",
+                textAlign: "center",
+                whiteSpace: "nowrap",
+                overflow: "hidden",
+         }}>Sign up free</a>
+        </button>
+      </div>
+    </div>
+  );
+};
+
 export default FooterGuest;

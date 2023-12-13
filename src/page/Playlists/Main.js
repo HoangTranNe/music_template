@@ -4,8 +4,11 @@ import Top from '../components/Top';
 
 function Main({item}){
     return <div>
-    <div style={{marginLeft: "15%", background: "rgba(0, 0, 0, 0.89)", minHeight: "100vh"}}>
+    <div style={{marginLeft: "15%", background: "rgba(0, 0, 0, 0.89)", minHeight: "100vh"}}>    
         <Top/>
+        <br/>
+        <br/>
+        <br/>
         <div style={{paddingLeft: "25px", minHeight: "95vh"}}>
             <div className="pb-5">
                 <div className="d-flex">

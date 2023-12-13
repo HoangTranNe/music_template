@@ -8,14 +8,11 @@ function Top() {
   }
   return (
     <div style={{
-        marginLeft: "269px",
+        marginLeft: "50px",    
+        marginTop: "10px",
         position: "fixed",     
-        float: "top",
-        top: 0,
-        left: 0,        
-        width: "100%",
-        zIndex: 200,
-        backgroundColor: "#333333",
+        float: "top",       
+        width: "100%",                
         color: "white",
         height: "50px",
         display: "flex",
@@ -84,8 +81,12 @@ function Top() {
                 cursor: "pointer",
                 transition: ".3s ease-in-out all",
             }}>
-                <button style={{background: "rgba(0, 0, 0, 0.9)", color: "white", borderRadius: "5px", padding: "10px", marginLeft: "10px"}}>Login</button>
-                <button style={{background: "rgba(0, 0, 0, 0.9)", color: "white", borderRadius: "5px", padding: "10px", marginLeft: "10px"}}>Register</button>
+                <button style={{background: "rgba(0, 0, 0, 0.9)", color: "white", borderRadius: "5px", padding: "10px", marginLeft: "10px"}}>
+                    <a href = "../Login" style={Logout}>Login</a>
+                </button>
+                <button style={{background: "rgba(0, 0, 0, 0.9)", color: "white", borderRadius: "5px", padding: "10px", marginLeft: "10px"}}>
+                    <a href = "../Register" style={Logout}>Register</a>
+                </button>
                 <button style={{background: "rgba(0, 0, 0, 0.9)", color: "white", borderRadius: "5px", padding: "10px", marginLeft: "10px"}}>
                     <a href='../Login' style={Logout}>Log out</a>
                 </button>
