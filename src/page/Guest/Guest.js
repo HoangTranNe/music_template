@@ -1,14 +1,11 @@
 import React from "react";
-import Menu from "../components/MenuLeft";
-import Main from "../components/MainGuest"
-import FooterGuest from "../components/FooterGuest";
+import Menu from "../components/MenuGuest";
+import Main from "../components/MainGuest";
 function Guest ({item}) {
     return(
         <div>
             <Menu/>
-            
-            <Main item = {item}/>        
-            
+            <Main item = {item}/>                    
         </div>
     );
 }

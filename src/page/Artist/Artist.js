@@ -9,12 +9,8 @@ function Artist () {
             height: "100vh"
         
         }}>
-            
-            <Menu/>
-            
-            <Main/>
-                   
-            
+            <Menu/>            
+            <Main/>                   
         </div>
     );
 }   

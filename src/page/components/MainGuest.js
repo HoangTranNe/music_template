@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Top from '../components/Top';
+import Top from '../components/TopGuest';
 import FooterGuest from "../components/FooterGuest";
 function Main({item}){
     return <div>
