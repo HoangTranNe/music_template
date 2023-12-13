@@ -1,6 +1,7 @@
 import React from "react";
 import Main from "./Main"
 import Menu from "../components/MenuLeft";
+
 function Artist () {
     return (
         <div style={{
