@@ -1,12 +1,47 @@
-import React from 'react';
+import React , {useState} from 'react';
 import "../static/css/style.css";
-function Login(){
-    return <div>
+import { useNavigate } from 'react-router-dom';
+
+
+
+function Login(){ 
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+  };
+
+  const handlePasswordChange = (event) => {
+    setPassword(event.target.value);
+  };
+
+  const UseAdmin = (email, password) => {
+    
+    if (email === "admin" && password === "admin") {  
+      navigate('../Admin');
+    }
+    else if (email != "admin" && password != "admin"){
+      navigate('../Playlists');
+    }
+  }
+  
+  const handleLogin = (event) => {
+    event.preventDefault();
+    // Check the content of email and password
+    if (email === "" || password === "") {
+      alert("Please enter both email and password.");
+    } else {
+      // Perform login logic here
+      UseAdmin(email, password);
+    }
+  };   
+ 
+  return <div>
     <header>
-      <div className="logo">
-        <a href="#">
+      <div className="logo">        
           <img src="img/logo-black.png" alt="Logo" />          
-        </a>
       </div>
     </header>
 
@@ -36,28 +71,29 @@ function Login(){
         <div className="log-in">
           <form className='position-relative'>
             <label>Email address or username</label>
-            <input type="text" placeholder="Email or username" />
+
+            <input type="text" placeholder="Email or username" value={email} style={{
+              color: "black"
+            }} onChange={handleEmailChange} />
 
             <label>Password</label>
-            <input type="password" placeholder="Password" />           
 
+            <input type="password" placeholder="Password" value={password} style={{
+              color: "black"
+            }} onChange={handlePasswordChange} />          
 
             <a href="../Forgot" className='d-flex' style={{color: "black", marginBottom: "5px"}}>Forgot your password?</a>
-            
+  
             <div className='d-flex justify-content-between'>
                 <div className="d-flex align-items-center">
                     <input type="checkbox" style={{width: "10px", margin: "0", marginRight: "10px", backgroundColor: "#1ed760"}} />
                     <span style={{fontWeight: "normal"}}>Remember me</span>
                 </div>
 
-                <button style={{width: "150px"}}>
-                  <a href="../Playlists" style = {{
-                    textDecoration: 'none',
-                    color: 'black'
-                  }}> Log in </a>
+                <button type='submit' style={{width: "150px"}} onClick={handleLogin}>
+                  Login                  
                 </button>
-            </div>
-            
+            </div>            
           </form>
         </div>
 

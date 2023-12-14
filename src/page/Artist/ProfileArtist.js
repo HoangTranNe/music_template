@@ -6,8 +6,30 @@ const ProfileArtist = () => {
         <div className="box" style={{ position:"relative", height: "174px", width: "100%", marginLeft: "-200px", marginTop : "70px", font: "700 20px/24px Circular Std, -apple-system, Roboto, Helvetica, sans-serif"}}>
             <div className="recent-searches" style={{ height: "254px", width: "1036px" }}>
                 <div className="div" style={{ color: "var(--secondarysecondary-03)", fontFamily: "var(--header-header-02-font-family)", fontSize: "var(--header-header-02-font-size)", fontStyle: "var(--header-header-02-font-style)", fontWeight: "var(--header-header-02-font-weight)", left: "0", letterSpacing: "var(--header-header-02-letter-spacing)", lineHeight: "var(--header-header-02-line-height)", position: "absolute", top: "0", whiteSpace: "nowrap" }}>Recent searches</div>
-                <div className="see-all" style={{ color: "#ffffff", fontFamily: "var(--body-body-04-font-family)", fontSize: "var(--body-body-04-font-size)", fontStyle: "var(--body-body-04-font-style)", fontWeight: "var(--body-body-04-font-weight)", left: "990px", letterSpacing: "var(--body-body-04-letter-spacing)", lineHeight: "var(--body-body-04-line-height)", position: "absolute", top: "22px", whiteSpace: "nowrap" }}>SEE ALL</div>
-                <div className="frame-2" style={{ alignItems: "center", display: "flex", gap: "24px", left: "0", overflow: "hidden", position: "absolute", top: "52px", width: "1032px" }}>
+                    <button type="button" className="see-all" style={{ 
+                        marginTop: "-7px",
+                        backgroundColor: "var(--primaryprimary-01)",
+                        borderRadius: "20px",
+                        height: "52px",                    
+                        width: "92px",                    
+                        color: "#ffffff", 
+                        fontFamily: "var(--body-body-04-font-family)", 
+                        fontSize: "var(--body-body-04-font-size)", 
+                        fontStyle: "var(--body-body-04-font-style)", 
+                        fontWeight: "var(--body-body-04-font-weight)", 
+                        left: "990px", 
+                        letterSpacing: "var(--body-body-04-letter-spacing)", 
+                        lineHeight: "var(--body-body-04-line-height)", 
+                        position: "absolute", 
+                        whiteSpace: "nowrap" }}>
+                            <a href="./DetailsArtist" style={{                            
+                                textDecoration: "none",
+                                color: "#FFFFFF"                
+                            }}>
+                                See All
+                            </a>
+                    </button>
+                <div className="frame-2" style={{ alignItems: "center", display: "flex", justifyContent: "space-between", gap: "24px", left: "0", overflow: "hidden", position: "absolute", top: "52px", width: "1452px" }}>
                     <MainMainContent
                         content="recent-searches"
                         ellipse="image.png"
@@ -42,6 +64,20 @@ const ProfileArtist = () => {
                         hover={false}
                         text="Charlie Puth"
                         xUnion="union-5.svg"
+                    />
+                    <MainMainContent
+                        content="recent-searches"
+                        ellipse="ellipse-9-6.png"
+                        hover={false}
+                        text="Marvin Gaye"
+                        xUnion="union-6.svg"
+                    />
+                    <MainMainContent
+                        content="recent-searches"
+                        ellipse="ellipse-9-6.png"
+                        hover={false}
+                        text="Marvin Gaye"
+                        xUnion="union-6.svg"
                     />
                     <MainMainContent
                         content="recent-searches"

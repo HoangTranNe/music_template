@@ -7,8 +7,10 @@ function Artist () {
         <div style={{
             backgroundColor: "#121212",
             color: "white",
-            height: "100vh"
-        
+            height: "100vh",
+            fontFamily: "monospace",
+            fontSize: "15px",        
+            fontWeight: "bold"
         }}>
             <Menu/>            
             <Main/>                   
